@@ -1,8 +1,7 @@
-
 import pandas as pd
 
 filename = "../data/raw/bigdata.csv"
-compressed_filename = "../data/compressed/bigdata.compression.csv"
+compressed_filename = "../data/compressed/bigdata.csv.gz"  # يجب أن ينتهي بـ .gz
 
 print("Compressing")
 df_full = pd.read_csv(filename)
