@@ -1,0 +1,2 @@
+Method,Time(sec),FileSize(MB),RAM_Used(MB),Rows
+Pandas Chunks,83.38854050636292,5120.004994392395,78.5859375,55712095
